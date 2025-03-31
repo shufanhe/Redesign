@@ -1,0 +1,242 @@
+@import url('clash-display.css');
+/* Typography */
+body {
+    margin: 0;
+    font-family: 'ClashDisplay-Bold', sans-serif;
+    overflow-x: hidden;
+}
+h1 {
+    font-weight:200;
+}
+p {
+    font-weight:100;
+}
+.left-texth {
+    text-align: left; 
+    width: 90%; 
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 400;
+    color: #5e3f24;
+}
+.left-textp{
+    text-align: left; 
+    width: 90%; 
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 40px;
+    margin-top: 5px;
+}
+.larger-text {
+    text-align: left;
+    font-size: 18px;
+    width: 90%; 
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 8%;
+}
+.smaller-text {
+    font-size: 13px;
+}
+
+/* Layout */
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px; 
+    padding-right: 40px;
+    height: auto;
+    background-color: #F8F1EC;
+}
+.line {
+    width: 90%;
+    border: none;
+    height: 1px; 
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    margin-top: 10%;
+}
+#section1 {display: flex; flex-direction: column; padding: 100px 30px; min-height: 75vh; background-color: #ffffff;}
+
+.cover {
+    text-align: center;
+    max-width: 980px;
+    padding: 20px;
+}
+.title {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 16px;
+    font-weight: normal;
+}
+.intro {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+}
+.columns {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.column {
+    flex: 1;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.column:nth-child(1) {
+    flex: 2; 
+}
+.column:nth-child(2) {
+    flex: 1; 
+}
+.img {
+    max-height: 40vh;
+}
+
+
+#section2 { display: flex; flex-direction: column;}
+.screenshots {
+    display: flex;
+    justify-content: center; 
+    align-items: top;
+    text-align: center; 
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.screenshots figure {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.screenshots img {
+    width: 100%; 
+    height: auto;
+    border-radius: 13px;
+    background-color: #ffffff; 
+    padding: 40px;
+}
+.screenshots figcaption {
+    font-size: 20px;
+    padding: 1%;
+}
+#section3 { display: flex; flex-direction: column; height: 200%;}
+.image-grid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 8%;
+    width: 90%;;
+}
+.image-container {
+    text-align: center; 
+}
+.big-img {
+    width: 100%; 
+    max-height: 600px; 
+    object-fit: cover; 
+    object-position: top;
+    border-radius: 12px; 
+}
+.image-title {
+    font-size: 1.5rem; 
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.narrow {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-bottom: 5%;
+    row-gap: 20px;
+}
+
+
+#section4 { display: flex; flex-direction: column; }
+.figma-img {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 80%;
+    height: auto;
+}
+
+#section5 {display: flex; flex-direction: column; }
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0%;
+    width: 100%;
+}
+.image-container {
+    text-align: center;
+}
+.product-img {
+    width: 70%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+}
+.image-title {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+#section6 { display: flex; flex-direction: column;}
+#section7 { display: flex; flex-direction: column; background-color: #ffffff; }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 20px;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+.narrow1 {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding-bottom: 5%;
+    row-gap: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.header {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+.app-icon {
+    width: 60px; 
+    height: 60px; 
+    margin-top: 10px; 
+}
+.header i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.header h2 {
+    margin: 10px 0;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+ul li {
+    margin-bottom: 10px;
+    text-align: left;
+}
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    background-color: #F8F1EC;
+    overflow-x: hidden;
+}

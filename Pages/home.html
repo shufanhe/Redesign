@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Jura', sans-serif; }
+        .garamond {font-family: 'EB Garamond', serif;}
+    </style>
+</head>
+<body class="bg-[#F8F1EC] text-black">
+    <!-- Header -->
+    <header class="flex justify-between items-center px-10 py-8 bg-[#F8F1EC]">
+        <a href="home.html" class="block">
+            <img src="static/logo.png" alt="Cafe Logo" class="h-8 w-auto">
+        </a>
+        <nav class="hidden sm:block">
+            <ul class="flex space-x-6">
+                <li><a href="home.html" class="hover:underline">Home</a></li>
+                <li><a href="dessert.html" class="hover:underline">Menu</a></li>
+                <li><a href="order.html" class="hover:underline">Order</a></li>
+            </ul>
+        </nav>
+        <div class="sm:hidden">
+            <a href="menu-page.html">
+                <i class="fas fa-bars text-2xl text-black"></i> 
+            </a>
+        </div>
+    </header>
+    <!-- Main Content -->
+    <main class=" space-y-12 flex-1">
+
+        <section class="relative w-full h-[60vh] sm:h-[80vh] overflow-hidden">
+            <img src="static/coffee.png" alt="Cafe Image" class="w-full h-full object-cover absolute inset-0 z-0 object-left">
+            <div class="absolute inset-0 bg-black bg-opacity-60 z-10"></div>
+            <div class="relative z-10 flex items-center justify-start h-full px-8 sm:px-12 max-w-5xl">
+                <div class="text-white sm:w-3/4 md:w-1/2">
+                    <h2 class="text-3xl sm:text-5xl garamond">Welcome to Golden Dessert & Cafe,</h2>
+                    <p class="mt-4 text-lg sm:text-base font-thinner">where we offer coffee and desserts with a fun environment!
+                        Our cafe is located in the heart of the city, with a beautiful gazebo and upper deck for customers to enjoy.
+                        Our menu features specialty coffees, teas, and homemade pastries and cakes that are sure to tantalize your taste buds.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-[1200px] mx-auto px-[5%] py-8 md:py-12">
+            <div class="flex flex-col md:flex-row gap-8 items-center text-center md:text-left">
+                <div class="w-full md:w-1/2">
+                    <h2 class="text-4xl sm:text-6xl font-bold">New Item</h2>
+                    <h2 class="text-2xl sm:text-3xl">Pinku Mochi Donuts</h2>
+                </div>
+                <div class="w-full md:w-1/2 flex justify-center md:justify-end">
+                    <img src="static/eg2.png" alt=" image" class="w-full sm:w-auto max-w-xs sm:max-w-sm shadow-md">
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="hidden sm:block px-8 lg:px-40 xl:px-50 py-6 sm:py-8 md:py-12">
+            <div class="mb-4">
+                <p class="text-left text-2xl font-semibold">Popular Items</p>
+            </div>
+            <div class="flex space-x-8 overflow-x-auto pb-4">
+                <div class="flex flex-col items-center flex-shrink-0 w-56">
+                    <img src="static/desserts/e.png" alt="Espresso" class="w-56 h-56 object-cover shadow-md">
+                    <h3 class="mt-4 text-lg text-center">Hibiscus & Dragon Fruit Refresher</h3>
+                </div>
+
+                <div class="flex flex-col items-center flex-shrink-0 w-56">
+                    <img src="static/desserts/a.png" alt="Espresso" class="w-56 h-56 object-cover shadow-md">
+                    <h3 class="mt-4 text-lg text-center">Iced Matcha Latte</h3>
+                </div>
+        
+                <div class="flex flex-col items-center flex-shrink-0 w-56">
+                    <img src="static/desserts/c.png" alt="Cappuccino" class="w-56 h-56 object-cover shadow-md">
+                    <h3 class="mt-4 text-lg text-center">Chocolate Fondue</h3>
+                </div>
+            
+                <div class="flex flex-col items-center flex-shrink-0 w-56">
+                    <img src="static/desserts/f.png" alt="Rooftop View" class="w-56 h-56 object-cover shadow-md">
+                    <h3 class="mt-4 text-lg text-center">Refreshers & Bubble Teas</h3>
+                </div>
+            
+                <div class="flex flex-col items-center flex-shrink-0 w-56">
+                    <img src="static/desserts/j (1).png" alt="Pastries" class="w-56 h-56 object-cover shadow-md">
+                    <h3 class="mt-4 text-lg text-center">Turkish Baklava</h3>
+                </div>
+            
+                <div class="flex flex-col items-center flex-shrink-0 w-56">
+                    <img src="static/desserts/s.png" alt="Herbal Tea" class="w-56 h-56 object-cover shadow-md">
+                    <h3 class="mt-4 text-lg text-center">Caramel Cheesecake</h3>
+                </div>
+    
+                <div class="flex flex-col items-center flex-shrink-0 w-56">
+                    <img src="static/desserts/n.png" alt="Herbal Tea" class="w-56 h-56 object-cover shadow-md">
+                    <h3 class="mt-4 text-lg text-center">Turtle Cheesecake</h3>
+                </div>
+        
+                <div class="flex flex-col items-center flex-shrink-0 w-56">
+                    <img src="static/desserts/r.png" alt="Herbal Tea" class="w-56 h-56 object-cover shadow-md">
+                    <h3 class="mt-4 text-lg text-center">Oreo Magnolia</h3>
+                </div>
+        
+                <div class="flex flex-col items-center flex-shrink-0 w-56">
+                    <img src="static/desserts/j.png" alt="Herbal Tea" class="w-56 h-56 object-cover shadow-md">
+                    <h3 class="mt-4 text-lg text-center">Fried Oreo</h3>
+                </div>
+        
+                <div class="flex flex-col items-center flex-shrink-0 w-56">
+                    <img src="static/desserts/d.png" alt="Herbal Tea" class="w-56 h-56 object-cover shadow-md">
+                    <h3 class="mt-4 text-lg text-center">Golden Waffle</h3>
+                </div>
+        
+                <div class="flex flex-col items-center flex-shrink-0 w-56">
+                    <img src="static/desserts/x.png" alt="Herbal Tea" class="w-56 h-56 object-cover shadow-md">
+                    <h3 class="mt-4 text-lg text-center">Iced Mocha Latte</h3>
+                </div>
+        
+                <div class="flex flex-col items-center flex-shrink-0 w-56">
+                    <img src="static/desserts/b.png" alt="Herbal Tea" class="w-56 h-56 object-cover shadow-md">
+                    <h3 class="mt-4 text-lg text-center">Granola Yogurt</h3>
+                </div>
+        
+                <div class="flex flex-col items-center flex-shrink-0 w-56">
+                    <img src="static/desserts/t.png" alt="Herbal Tea" class="w-56 h-56 object-cover shadow-md">
+                    <h3 class="mt-4 text-lg text-center">Turkish Coffee</h3>
+                </div>
+        
+                <div class="flex flex-col items-center flex-shrink-0 w-56">
+                    <img src="static/desserts/v.png" alt="Herbal Tea" class="w-56 h-56 object-cover shadow-md">
+                    <h3 class="mt-4 text-lg text-center">Chocolate Over Cheesecake</h3>
+                </div>
+        
+                <div class="flex flex-col items-center flex-shrink-0 w-56">
+                    <img src="static/desserts/w.png" alt="Herbal Tea" class="w-56 h-56 object-cover shadow-md">
+                    <h3 class="mt-4 text-lg text-center">Strawberry Milkshake</h3>
+                </div>
+        
+                <div class="flex flex-col items-center flex-shrink-0 w-56">
+                    <img src="static/desserts/g.png" alt="Herbal Tea" class="w-56 h-56 object-cover shadow-md">
+                    <h3 class="mt-4 text-lg text-center">Pistachio Milkshake</h3>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#69482C] text-white text-center py-8 mt-auto">
+        <h3 class="text-xl font-semibold">Contact Us!</h3>
+        <p class="mt-2">369 Douglas Ave, Providence 02908 RI</p>
+        <p class="mt-1">401-273-2288</p>
+        <div class="mt-2 flex justify-center">
+            <i class="fab fa-instagram text-2xl"></i>
+        </div>
+    </footer>
+</body>
+</html>

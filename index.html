@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Webpage Redesign</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="section" id="section1">
+        <div class="cover">
+            <h1 class="title">Cafe Webpage Redesign</h1>
+            <p class="intro"> The goal of this project is to evaluate and redesign the webpage of a local coffee shop in Providence RI. 
+                The main motivation is to enhance accessibility and better showcase the cafe's products and features to attract customers.</p>    
+        </div>
+        <div class="image-grid1">
+            <div class="image-container">
+                <h3 class="image-title">Old Design</h3>
+                <img src="images/homeold.png" alt="" class="big-img">
+            </div>
+            <div class="image-container">
+                <h3 class="image-title">New Design</h3>
+                <img src="images/homenew.png" alt="" class="big-img">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section" id="section2">
+        <h2 class="left-texth"></h2>
+        <h1 class="left-texth">The Company:</h1>
+        <p class="left-textp">Golden Dessert & Cafe is a coffee shop in Providence RI. Their main menu includes dinks, desserts, as well as varies hot and cold meals.</p>
+    </div>
+
+    <div class="section" id="section3">
+        <h2 class="left-texth">1. The Old Design:</h2>
+        <p class="left-textp">The original webpage is available at:     
+            <a href="https://www.goldendessertri.com">www.goldendessertri.com</a>
+        </p>
+        <div class="image-grid1">
+            <div class="image-container">
+                <img src="images/old1.png" alt="" class="big-img">
+            </div>
+            <div class="image-container">
+                <img src="images/old2.png" alt="" class="big-img">
+            </div>
+        </div>
+    </div>
+    
+    <div class="section" id="section4">
+        <h2 class="left-texth"></h2>
+        <h2 class="left-texth">2. The Problem:</h2>
+        <p class="left-textp">
+            The main issues of the old webpage can be categorized into the following five aspects:<br><br>
+            <b>Efficiency:</b> Most of the information is laid out on the home page without much organization. The page is not responsive, and when viewing on a narrow screen the menu item names and pictures mismatch.<br><br>
+            <b>Learnability:</b> It’s not clear which components are clickable and which are not without hovering over them.<br><br>
+            <b>Memorability:</b> It’s unlikely that users will easily remember the location of each item, as they are scattered throughout the page, with relatively similar sizes. The buttons, heading, and contact information are the same size.<br><br>
+            <b>Conceptual model:</b> Some components are used in unexpected ways. For example, the highlighted text "Dessert Menu" redirects to a pdf, whereas “Checkout our roof deck” is not clickable. 
+            The dessert and drink pictures are clickable but has no actual functioanlity other than displaying them, and the purpose of the like buttons are unclear since there is no sense of user of user interactions.<br><br>
+            <b>Accessibility:</b> Many texts on images incurred contrast errors when examined under WAVE. Some have small fonts which makes them even harder to read.
+        </p>
+        <h1 class="left-texth"></h1>
+    </div>
+
+    <div class="section" id="section5">
+        <h1 class="left-texth"></h1>
+        <h1 class="left-texth">Design Process:</h1>
+        <p class="left-textp">The main objective is to address the problems identified in the previous section by improving style, organization, and responsiveness.
+            The new design is available at:
+            <a href="https://www.goldendessertri.com">www.goldendessertri.com</a>
+        </p>
+
+        <h2 class="left-texth">1. Style Guide</h2>
+        <p class="left-textp">The first step was to build an overall theme that suits the sytle of the coffee shop and is visually appealing to (potential) customers.
+            The selection of beige and brown as primary colors is to match the coffee theme with a clean and unobstrusive.
+            From the original webpage and the cafe's instagram page, it's appearant that the business is catering to young people as a lively space to hang out in.
+            To match that spirit Jura is selected as the primary font, which is a good balance between readability and playfulness.
+
+        </p>
+        <div class="screenshots">
+            <figure>
+                <img src="images/styleguide.png" alt="">
+            </figure>
+        </div>
+
+        <h3 class="left-texth"></h3>
+
+        <h2 class="left-texth">2. Page Organization</h2>
+        <p class="left-textp">The second step was to reorganize the information on the webpage. To better arrange the cluster of components and make it easier for users to find information, a menu header is added. 
+            Some information that scattered on a single page are abstracted behind links, buttons, and slideshows that are intuitive to navigate.</p>
+        <div class="screenshots">
+            <figure>
+                <img src="images/notes.png" alt="">
+            </figure>
+        </div>
+    </div>
+
+    <div class="section" id="section6">
+        <h2 class="left-texth"></h2>
+        <h2 class="left-texth">3. Responsiveness:</h2>
+        <p class="left-textp">Another key goal was to make the webpage work on different screens. 
+            Other than incorporating responsive components, the new design abstracts more information from the homepage when viewing on a mobile device.
+            For example, the carousel item and the header bar components are relocated to sepeate pages.
+            The designs are shown in the following section.
+        </p>
+    </div>
+    <div class="section" id="section7">
+        <h2 class="left-texth"></h2>
+        <h1 class="left-texth">Final Design</h1>
+        <h2 class="left-texth"></h2>
+        <div class="image-grid">
+            <div class="image-container">
+                <h3 class="image-title">Homepage</h3>
+                <img src="images/phone.png" alt="" style="border-radius: 12px;" class="product-img">
+            </div>
+            <div class="image-container">
+                <h3 class="image-title">Menu Page</h3>
+                <img src="images/phone2.png" alt="" style="border-radius: 12px;" class="product-img">
+            </div>
+            <div class="image-container">
+                <h3 class="image-title">Popular Items</h3>
+                <img src="images/phone3.png" alt="" style="border-radius: 12px;" class="product-img">
+            </div>
+        </div>
+        <h1 class="left-texth"></h1>
+        <div class="image-grid1">
+            <div class="image-container">
+                <h3 class="image-title">Macbook Pro</h3>
+                <img src="images/laptop.png" alt="" class="big-img">
+            </div>
+            <div class="image-container">
+                <h3 class="image-title">iPad Mini</h3>
+                <img src="images/ipad.png" alt="" class="product-img">
+            </div>
+        </div>
+        <h1 class="left-texth"></h1>
+    </div>
+
+    <footer>
+        <p> 
+        </p>
+    </footer>
+</body>
+
+</html>
