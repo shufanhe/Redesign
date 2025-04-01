@@ -140,7 +140,7 @@ p {
 }
 .image-title {
     font-size: 1.5rem; 
-    font-weight: normal;
+    font-weight: 200;
     margin-bottom: 20px;
 }
 .narrow {
@@ -178,7 +178,7 @@ p {
 }
 .image-title {
     font-size: 1.5rem;
-    font-weight: normal;
+    font-weight: 200;
     margin-bottom: 20px;
 }
 
